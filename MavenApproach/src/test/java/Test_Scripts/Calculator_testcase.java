@@ -48,7 +48,7 @@ public class Calculator_testcase {
 	public void sum() throws InterruptedException 
 	{
 		CalculatorUI calci = new CalculatorUI(driver);        //Created the object of page CalculatorUI
-		
+
 		calci.clickonfive();
 		calci.clickonadd();
 		calci.clickonsix();
@@ -59,12 +59,9 @@ public class Calculator_testcase {
 	@AfterMethod	 
 	public void appclose() {
 		driver.quit();                                                                                     //close the application
-	service.stop();
+		service.stop();
 	}
-	
-	public AppiumDriverLocalService getAppiumServerDefault() {
-		return AppiumDriverLocalService.buildDefaultService();
-	}
+
 	public void startAppiumServer() {
 
 		HashMap<String, String> environment = new HashMap<String, String>();
