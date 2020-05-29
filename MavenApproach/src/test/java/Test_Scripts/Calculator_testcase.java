@@ -72,7 +72,7 @@ public class Calculator_testcase {
 		String appiumPath = "/home/mohammedathera/.npm-packages/lib/node_modules/appium/build/lib/main.js";
 		service = AppiumDriverLocalService.buildService(new AppiumServiceBuilder()
 				.usingDriverExecutable(new File(nodePath))
-				.usingPort(4723)
+				.usingPort(4733)
 				.withArgument(GeneralServerFlag.SESSION_OVERRIDE)
 				.withEnvironment(environment)
 				.withAppiumJS(new File(appiumPath)));
