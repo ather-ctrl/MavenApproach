@@ -37,7 +37,7 @@ public class CalculatorUI {
     public void clickonequal() {
     	equal.click();
     }
-    @AndroidFindBy(id = "com.sec.android.app.popupcalculator:id/calc_edt_formula")    //
+    @AndroidFindBy(id = "com.sec.android.app.popupcalculator:id/calc_edt_formula")    //result
     private AndroidElement result;
     public String showresult() {
 		return result.getText();

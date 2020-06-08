@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="13080" started-at="2020-05-30T16:36:30Z" finished-at="2020-05-30T16:36:43Z">
+  <suite name="Default suite" duration-ms="11721" started-at="2020-06-03T18:31:12Z" finished-at="2020-06-03T18:31:23Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="13080" started-at="2020-05-30T16:36:30Z" finished-at="2020-05-30T16:36:43Z">
+    <test name="Default test" duration-ms="11721" started-at="2020-06-03T18:31:12Z" finished-at="2020-06-03T18:31:23Z">
       <class name="Test_Scripts.Calculator_testcase">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Test_Scripts.Calculator_testcase@5442a311]" name="setup" is-config="true" duration-ms="8149" started-at="2020-05-30T16:36:30Z" finished-at="2020-05-30T16:36:38Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test_Scripts.Calculator_testcase@5442a311]" name="setup" is-config="true" duration-ms="7824" started-at="2020-06-03T18:31:12Z" finished-at="2020-06-03T18:31:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:Test_Scripts.Calculator_testcase@5442a311]" name="sum" duration-ms="4555" started-at="2020-05-30T16:36:38Z" finished-at="2020-05-30T16:36:43Z">
+        <test-method status="PASS" signature="sum()[pri:0, instance:Test_Scripts.Calculator_testcase@5442a311]" name="sum" duration-ms="3484" started-at="2020-06-03T18:31:19Z" finished-at="2020-06-03T18:31:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="appclose()[pri:0, instance:Test_Scripts.Calculator_testcase@5442a311]" name="appclose" is-config="true" duration-ms="325" started-at="2020-05-30T16:36:43Z" finished-at="2020-05-30T16:36:43Z">
+        <test-method status="PASS" signature="appclose()[pri:0, instance:Test_Scripts.Calculator_testcase@5442a311]" name="appclose" is-config="true" duration-ms="372" started-at="2020-06-03T18:31:23Z" finished-at="2020-06-03T18:31:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- appclose -->
       </class> <!-- Test_Scripts.Calculator_testcase -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
