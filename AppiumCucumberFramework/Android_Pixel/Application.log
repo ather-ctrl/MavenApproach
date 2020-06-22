@@ -1,0 +1,34 @@
+[Android_Pixel INFO ] 2020-06-22 00:22:28.933
+								DriverManager:28 - initializing Appium driver
+[Android_Pixel INFO ] 2020-06-22 00:22:28.977
+								PropertyManager:17 - loading config properties
+[Android_Pixel INFO ] 2020-06-22 00:22:28.978
+								CapabilitiesManager:18 - getting capabilities
+[Android_Pixel INFO ] 2020-06-22 00:22:28.979
+								CapabilitiesManager:34 - appUrl is/home/mohammedathera/eclipse-workspace/AppiumCucumberFramework/src/test/resources/apps/Android.SauceLabs.Mobile.Sample.app.2.2.1.apk
+[Android_Pixel INFO ] 2020-06-22 00:22:40.217
+								DriverManager:40 - Driver is initialized
+[Android_Pixel INFO ] 2020-06-22 00:22:42.562
+								BasePage:70 - login with invalidUsername
+[Android_Pixel INFO ] 2020-06-22 00:22:43.887
+								BasePage:70 - password is secret_sauce
+[Android_Pixel INFO ] 2020-06-22 00:22:45.092
+								BasePage:53 - press login button
+[Android_Pixel INFO ] 2020-06-22 00:22:46.133
+								BasePage:96 - error text is - Username and password do not match any user in this service.
+[Android_Pixel INFO ] 2020-06-22 00:22:47.013
+								BasePage:70 - login with standard_user
+[Android_Pixel INFO ] 2020-06-22 00:22:48.798
+								BasePage:70 - password is invalidPassword
+[Android_Pixel INFO ] 2020-06-22 00:22:49.482
+								BasePage:53 - press login button
+[Android_Pixel INFO ] 2020-06-22 00:22:50.117
+								BasePage:96 - error text is - Username and password do not match any user in this service.
+[Android_Pixel INFO ] 2020-06-22 00:22:50.905
+								BasePage:70 - login with standard_user
+[Android_Pixel INFO ] 2020-06-22 00:22:52.816
+								BasePage:70 - password is secret_sauce
+[Android_Pixel INFO ] 2020-06-22 00:22:53.991
+								BasePage:53 - press login button
+[Android_Pixel INFO ] 2020-06-22 00:22:56.329
+								BasePage:96 - product page title is - PRODUCTS

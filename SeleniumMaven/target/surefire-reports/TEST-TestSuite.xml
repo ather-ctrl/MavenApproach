@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="8.698" tests="6" errors="0" skipped="4" failures="2">
+  <properties>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/mohammedathera/eclipse-workspace/SeleniumMaven/target/test-classes:/home/mohammedathera/eclipse-workspace/SeleniumMaven/target/classes:/home/mohammedathera/.m2/repository/org/seleniumhq/selenium/selenium-java/3.14.0/selenium-java-3.14.0.jar:/home/mohammedathera/.m2/repository/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0.jar:/home/mohammedathera/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.14.0/selenium-chrome-driver-3.14.0.jar:/home/mohammedathera/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.14.0/selenium-edge-driver-3.14.0.jar:/home/mohammedathera/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.14.0/selenium-firefox-driver-3.14.0.jar:/home/mohammedathera/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.14.0/selenium-ie-driver-3.14.0.jar:/home/mohammedathera/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.14.0/selenium-opera-driver-3.14.0.jar:/home/mohammedathera/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.14.0/selenium-remote-driver-3.14.0.jar:/home/mohammedathera/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.14.0/selenium-safari-driver-3.14.0.jar:/home/mohammedathera/.m2/repository/org/seleniumhq/selenium/selenium-support/3.14.0/selenium-support-3.14.0.jar:/home/mohammedathera/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/home/mohammedathera/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/mohammedathera/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/home/mohammedathera/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/mohammedathera/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/home/mohammedathera/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/mohammedathera/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/home/mohammedathera/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/mohammedathera/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/mohammedathera/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/mohammedathera/.m2/repository/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar:/home/mohammedathera/.m2/repository/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar:/home/mohammedathera/.m2/repository/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0.jar:/home/mohammedathera/.m2/repository/com/squareup/okio/okio/1.14.1/okio-1.14.1.jar:/home/mohammedathera/.m2/repository/org/testng/testng/6.11/testng-6.11.jar:/home/mohammedathera/.m2/repository/com/beust/jcommander/1.64/jcommander-1.64.jar:/home/mohammedathera/.m2/repository/org/yaml/snakeyaml/1.17/snakeyaml-1.17.jar:/home/mohammedathera/.m2/repository/org/apache/poi/poi/3.9/poi-3.9.jar:/home/mohammedathera/.m2/repository/org/apache/poi/poi-ooxml/3.9/poi-ooxml-3.9.jar:/home/mohammedathera/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/home/mohammedathera/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/home/mohammedathera/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.9/poi-ooxml-schemas-3.9.jar:/home/mohammedathera/.m2/repository/org/apache/xmlbeans/xmlbeans/2.3.0/xmlbeans-2.3.0.jar:/home/mohammedathera/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/home/mohammedathera/.m2/repository/org/apache/poi/poi-scratchpad/3.9/poi-scratchpad-3.9.jar:/home/mohammedathera/.m2/repository/org/apache/poi/ooxml-schemas/1.1/ooxml-schemas-1.1.jar:/home/mohammedathera/.m2/repository/org/apache/poi/openxml4j/1.0-beta/openxml4j-1.0-beta.jar:/home/mohammedathera/.m2/repository/log4j/log4j/1.2.8/log4j-1.2.8.jar:/home/mohammedathera/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar:/home/mohammedathera/.m2/repository/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar:/home/mohammedathera/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/home/mohammedathera/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/home/mohammedathera/.m2/repository/org/mongodb/mongodb-driver/3.0.4/mongodb-driver-3.0.4.jar:/home/mohammedathera/.m2/repository/org/mongodb/bson/3.0.4/bson-3.0.4.jar:/home/mohammedathera/.m2/repository/org/mongodb/mongodb-driver-core/3.0.4/mongodb-driver-core-3.0.4.jar:/home/mohammedathera/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:"/>
+    <property name="java.vm.vendor" value="Debian"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Linux"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
+    <property name="sun.java.command" value="/home/mohammedathera/eclipse-workspace/SeleniumMaven/target/surefire/surefirebooter5010116282761037045.jar /home/mohammedathera/eclipse-workspace/SeleniumMaven/target/surefire 2020-06-13T17-26-55_877-jvmRun1 surefire6343303903001743085tmp surefire_07608443257207079198tmp"/>
+    <property name="surefire.test.class.path" value="/home/mohammedathera/eclipse-workspace/SeleniumMaven/target/test-classes:/home/mohammedathera/eclipse-workspace/SeleniumMaven/target/classes:/home/mohammedathera/.m2/repository/org/seleniumhq/selenium/selenium-java/3.14.0/selenium-java-3.14.0.jar:/home/mohammedathera/.m2/repository/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0.jar:/home/mohammedathera/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.14.0/selenium-chrome-driver-3.14.0.jar:/home/mohammedathera/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.14.0/selenium-edge-driver-3.14.0.jar:/home/mohammedathera/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.14.0/selenium-firefox-driver-3.14.0.jar:/home/mohammedathera/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.14.0/selenium-ie-driver-3.14.0.jar:/home/mohammedathera/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.14.0/selenium-opera-driver-3.14.0.jar:/home/mohammedathera/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.14.0/selenium-remote-driver-3.14.0.jar:/home/mohammedathera/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.14.0/selenium-safari-driver-3.14.0.jar:/home/mohammedathera/.m2/repository/org/seleniumhq/selenium/selenium-support/3.14.0/selenium-support-3.14.0.jar:/home/mohammedathera/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/home/mohammedathera/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/mohammedathera/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/home/mohammedathera/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/mohammedathera/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/home/mohammedathera/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/mohammedathera/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/home/mohammedathera/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/mohammedathera/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/mohammedathera/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/mohammedathera/.m2/repository/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar:/home/mohammedathera/.m2/repository/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar:/home/mohammedathera/.m2/repository/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0.jar:/home/mohammedathera/.m2/repository/com/squareup/okio/okio/1.14.1/okio-1.14.1.jar:/home/mohammedathera/.m2/repository/org/testng/testng/6.11/testng-6.11.jar:/home/mohammedathera/.m2/repository/com/beust/jcommander/1.64/jcommander-1.64.jar:/home/mohammedathera/.m2/repository/org/yaml/snakeyaml/1.17/snakeyaml-1.17.jar:/home/mohammedathera/.m2/repository/org/apache/poi/poi/3.9/poi-3.9.jar:/home/mohammedathera/.m2/repository/org/apache/poi/poi-ooxml/3.9/poi-ooxml-3.9.jar:/home/mohammedathera/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/home/mohammedathera/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/home/mohammedathera/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.9/poi-ooxml-schemas-3.9.jar:/home/mohammedathera/.m2/repository/org/apache/xmlbeans/xmlbeans/2.3.0/xmlbeans-2.3.0.jar:/home/mohammedathera/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/home/mohammedathera/.m2/repository/org/apache/poi/poi-scratchpad/3.9/poi-scratchpad-3.9.jar:/home/mohammedathera/.m2/repository/org/apache/poi/ooxml-schemas/1.1/ooxml-schemas-1.1.jar:/home/mohammedathera/.m2/repository/org/apache/poi/openxml4j/1.0-beta/openxml4j-1.0-beta.jar:/home/mohammedathera/.m2/repository/log4j/log4j/1.2.8/log4j-1.2.8.jar:/home/mohammedathera/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar:/home/mohammedathera/.m2/repository/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar:/home/mohammedathera/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/home/mohammedathera/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/home/mohammedathera/.m2/repository/org/mongodb/mongodb-driver/3.0.4/mongodb-driver-3.0.4.jar:/home/mohammedathera/.m2/repository/org/mongodb/bson/3.0.4/bson-3.0.4.jar:/home/mohammedathera/.m2/repository/org/mongodb/mongodb-driver-core/3.0.4/mongodb-driver-core-3.0.4.jar:/home/mohammedathera/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/mohammedathera"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-openjdk-amd64/jre"/>
+    <property name="basedir" value="/home/mohammedathera/eclipse-workspace/SeleniumMaven"/>
+    <property name="file.separator" value="/"/>
+    <property name="webdriver.firefox.driver" value="/usr/local/bin/geckodriver"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/mohammedathera/eclipse-workspace/SeleniumMaven/target/surefire/surefirebooter5010116282761037045.jar"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_232-8u232-b09-1~deb9u1-b09"/>
+    <property name="user.name" value="mohammedathera"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.2.17-1rodete3-amd64"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/mohammedathera/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="1.8.0_232"/>
+    <property name="user.dir" value="/home/mohammedathera/eclipse-workspace/SeleniumMaven"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Debian"/>
+    <property name="java.vm.version" value="25.232-b09"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="loginPageTitleTest" classname="com.qa.tests.LoginPageTest" time="0.011">
+    <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
+	at com.qa.tests.LoginPageTest.loginPageTitleTest(LoginPageTest.java:32)
+]]></failure>
+    <system-err><![CDATA[1592049417102	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.GvLWTXLQYDD3"
+1592049417606	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1592049417606	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1592049417606	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1592049417607	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: undefined, line 14: Error: An unexpected error occurred
+JavaScript error: moz-extension://1911b710-bba9-4ecd-9c52-36d97d6f3153/lib/picture_in_picture_overrides.js, line 15: Error: Incorrect argument types for pictureInPictureParent.setOverrides.
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1592049419929	Marionette	INFO	Listening on port 45507
+1592049420012	Marionette	WARN	TLS certificate errors will be ignored for this session
+Jun 13, 2020 5:27:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="tearDown" classname="com.qa.tests.LoginPageTest" time="0.012">
+    <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
+	at com.qa.tests.LoginPageTest.tearDown(LoginPageTest.java:50)
+]]></failure>
+  </testcase>
+  <testcase name="setUp" classname="com.qa.tests.LoginPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.qa.tests.LoginPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="crmLogoImageTest" classname="com.qa.tests.LoginPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="loginTest" classname="com.qa.tests.LoginPageTest" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>

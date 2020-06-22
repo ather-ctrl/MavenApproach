@@ -29,6 +29,7 @@ import page_objects.CalculatorUI;                                //Importing the
 
 public class Calculator_testcase { 
 	public static AppiumDriver<MobileElement> driver;
+	
 	@BeforeMethod                                                             //The annotated method will be run before each test method.
 	public void setup() throws MalformedURLException {	
 
@@ -45,6 +46,8 @@ public class Calculator_testcase {
 	
 		driver = new AppiumDriver<MobileElement>(new URL("http://127.0.0.1:4723/wd/hub"),caps); // Set appium server address and port number in URL string and pass desired capabilities here.                                                            
 	}
+
+	
 
 	@Test                                                     //The annotated method is a part of a test case
 	public void sum() throws InterruptedException 

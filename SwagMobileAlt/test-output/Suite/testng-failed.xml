@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="platformVersion" value="R"/>
+    <parameter name="platformName" value="Android"/>
+    <parameter name="deviceName" value="any device name"/>
+    <classes>
+      <class name="com.qa.tests.LoginTests">
+        <methods>
+          <include name="invalidUserName"/>
+          <include name="beforeMethod"/>
+          <include name="invalidPassword"/>
+          <include name="beforeClass"/>
+          <include name="successfullLogin"/>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.qa.tests.LoginTests -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

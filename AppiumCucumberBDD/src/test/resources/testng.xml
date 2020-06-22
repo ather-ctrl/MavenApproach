@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+	<test name="Pixel">
+		<parameter name="platformName" value="Android" />
+		<parameter name="udid" value="" />
+		<parameter name="deviceName" value="Pixel" />
+		<parameter name="systemPort" value="10000" />
+		<parameter name="chromeDriverPort" value="11000" />
+		<classes>
+			<class name="com.qa.runners.MyPixelTestNGRunnerTest"></class>
+		</classes>
+	</test>
+	<!-- <test name="Samsung">
+		<parameter name="platformName" value="Android" />
+		<parameter name="udid" value="" />
+		<parameter name="deviceName" value="Samsung S9" />
+		<parameter name="systemPort" value="10001" />
+		<parameter name="chromeDriverPort" value="11001"/>
+		<classes>
+			<class name="com.qa.runners.MySamsungTestNGRunnerTest"></class>
+		</classes>
+	</test> Test -->
+</suite> <!-- Suite -->

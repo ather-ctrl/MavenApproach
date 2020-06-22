@@ -1,0 +1,59 @@
+2020-06-11 11:35:06:178 [Appium] Welcome to Appium v1.17.1
+2020-06-11 11:35:06:179 [Appium] Non-default server args:
+2020-06-11 11:35:06:180 [Appium]   port: 2899
+2020-06-11 11:35:06:180 [Appium]   sessionOverride: true
+2020-06-11 11:35:06:180 [Appium]   logFile: /home/mohammedathera/eclipse-workspace/AppiumCucumberFramework/Android_Pixel/Server.log
+2020-06-11 11:35:06:195 [Appium] Appium REST http interface listener started on 0.0.0.0:2899
+2020-06-11 11:35:06:324 [HTTP] --> GET /wd/hub/status
+2020-06-11 11:35:06:324 [HTTP] {}
+2020-06-11 11:35:06:328 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2020-06-11 11:35:06:329 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.17.1"}}
+2020-06-11 11:35:06:333 [HTTP] <-- GET /wd/hub/status 200 7 ms - 68
+2020-06-11 11:35:06:333 [HTTP] 
+2020-06-11 11:35:06:336 [HTTP] --> GET /wd/hub/status
+2020-06-11 11:35:06:336 [HTTP] {}
+2020-06-11 11:35:06:337 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2020-06-11 11:35:06:337 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.17.1"}}
+2020-06-11 11:35:06:338 [HTTP] <-- GET /wd/hub/status 200 1 ms - 68
+2020-06-11 11:35:06:338 [HTTP] 
+2020-06-11 11:35:06:781 [HTTP] --> POST /wd/hub/session
+2020-06-11 11:35:06:781 [HTTP] {"desiredCapabilities":{"app":"/home/mohammedathera/eclipse-workspace/AppiumCucumberFramework/src/test/resources/apps/Android.SauceLabs.Mobile.Sample.app.2.2.1.apk","appActivity":"com.swaglabsmobileapp.SplashActivity","appPackage":"com.swaglabsmobileapp","automationName":"UiAutomator2","chromeDriverPort":"11000","platformName":"Android","udid":"FA6A40301235","deviceName":"Pixel","systemPort":"10000"},"capabilities":{"firstMatch":[{"appium:app":"/home/mohammedathera/eclipse-workspace/AppiumCucumberFramework/src/test/resources/apps/Android.SauceLabs.Mobile.Sample.app.2.2.1.apk","appium:appActivity":"com.swaglabsmobileapp.SplashActivity","appium:appPackage":"com.swaglabsmobileapp","appium:automationName":"UiAutomator2","chromeDriverPort":"11000","appium:deviceName":"Pixel","platformName":"android","appium:systemPort":"10000","appium:udid":"FA6A40301235"}]}}
+2020-06-11 11:35:06:781 [W3C] Calling AppiumDriver.createSession() with args: [{"app":"/home/mohammedathera/eclipse-workspace/AppiumCucumberFramework/src/test/resources/apps/Android.SauceLabs.Mobile.Sample.app.2.2.1.apk","appActivity":"com.swaglabsmobileapp.SplashActivity","appPackage":"com.swaglabsmobileapp","automationName":"UiAutomator2","chromeDriverPort":"11000","platformName":"Android","udid":"FA6A40301235","deviceName":"Pixel","systemPort":"10000"},null,{"firstMatch":[{"appium:app":"/home/mohammedathera/eclipse-workspace/AppiumCucumberFramework/src/test/resources/apps/Android.SauceLabs.Mobile.Sample.app.2.2.1.apk","appium:appActivity":"com.swaglabsmobileapp.SplashActivity","appium:appPackage":"com.swaglabsmobileapp","appium:automationName":"UiAutomator2","chromeDriverPort":"11000","appium:deviceName":"Pixel","platformName":"android","appium:systemPort":"10000","appium:udid":"FA6A40301235"}]}]
+2020-06-11 11:35:06:782 [BaseDriver] Event 'newSessionRequested' logged at 1591875306782 (17:05:06 GMT+0530 (India Standard Time))
+2020-06-11 11:35:06:785 [BaseDriver] The following capabilities are not standard capabilities and should have an extension prefix:
+2020-06-11 11:35:06:785 [BaseDriver]   chromeDriverPort
+2020-06-11 11:35:06:894 [Appium] Appium v1.17.1 creating new AndroidUiautomator2Driver (v1.44.2) session
+2020-06-11 11:35:06:894 [Appium] There are no active sessions for cleanup
+2020-06-11 11:35:06:897 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2020-06-11 11:35:06:897 [BaseDriver] Creating session with W3C capabilities: {
+2020-06-11 11:35:06:897 [BaseDriver]   "alwaysMatch": {
+2020-06-11 11:35:06:897 [BaseDriver]     "appium:chromeDriverPort": "11000",
+2020-06-11 11:35:06:897 [BaseDriver]     "platformName": "android",
+2020-06-11 11:35:06:898 [BaseDriver]     "appium:app": "/home/mohammedathera/eclipse-workspace/AppiumCucumberFramework/src/test/resources/apps/Android.SauceLabs.Mobile.Sample.app.2.2.1.apk",
+2020-06-11 11:35:06:898 [BaseDriver]     "appium:appActivity": "com.swaglabsmobileapp.SplashActivity",
+2020-06-11 11:35:06:898 [BaseDriver]     "appium:appPackage": "com.swaglabsmobileapp",
+2020-06-11 11:35:06:898 [BaseDriver]     "appium:automationName": "UiAutomator2",
+2020-06-11 11:35:06:898 [BaseDriver]     "appium:deviceName": "Pixel",
+2020-06-11 11:35:06:899 [BaseDriver]     "appium:systemPort": "10000",
+2020-06-11 11:35:06:899 [BaseDriver]     "appium:udid": "FA6A40301235"
+2020-06-11 11:35:06:899 [BaseDriver]   },
+2020-06-11 11:35:06:899 [BaseDriver]   "firstMatch": [
+2020-06-11 11:35:06:900 [BaseDriver]     {}
+2020-06-11 11:35:06:900 [BaseDriver]   ]
+2020-06-11 11:35:06:900 [BaseDriver] }
+2020-06-11 11:35:06:903 [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+2020-06-11 11:35:06:904 [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+2020-06-11 11:35:06:907 [BaseDriver] Capability 'systemPort' changed from string ('10000') to integer (10000). This may cause unexpected behavior
+2020-06-11 11:35:06:907 [BaseDriver] Capability 'chromeDriverPort' changed from string ('11000') to integer (11000). This may cause unexpected behavior
+2020-06-11 11:35:06:912 [BaseDriver] Session created with session id: 7d09c3c7-6e27-48c9-94b7-53a447c2b57c
+2020-06-11 11:35:06:915 [BaseDriver] Using local app '/home/mohammedathera/eclipse-workspace/AppiumCucumberFramework/src/test/resources/apps/Android.SauceLabs.Mobile.Sample.app.2.2.1.apk'
+2020-06-11 11:35:06:915 [UiAutomator2] Checking whether app is actually present
+2020-06-11 11:35:06:918 [ADB] The ANDROID_HOME environment variable is not set to the Android SDK root directory path. ANDROID_HOME is required for compatibility with SDK 23+. Checking along PATH for adb.
+2020-06-11 11:35:06:922 [UiAutomator2] Deleting UiAutomator2 session
+2020-06-11 11:35:06:924 [BaseDriver] Event 'newSessionStarted' logged at 1591875306924 (17:05:06 GMT+0530 (India Standard Time))
+2020-06-11 11:35:06:954 [W3C] Encountered internal error running command: Error: Could not find 'adb' in PATH. Please set the ANDROID_HOME or ANDROID_SDK_ROOT environment variables to the correct Android SDK root directory path.
+2020-06-11 11:35:06:954 [W3C]     at ADB.getBinaryFromPath (/home/mohammedathera/.npm-packages/lib/node_modules/appium/node_modules/appium-adb/lib/tools/system-calls.js:140:11)
+2020-06-11 11:35:07:001 [W3C] Destroying socket connection
+2020-06-11 11:35:07:002 [HTTP] <-- POST /wd/hub/session 500 220 ms - 839
+2020-06-11 11:35:07:002 [HTTP] 
+2020-06-11 11:35:07:030 [Appium] Received SIGTERM - shutting down

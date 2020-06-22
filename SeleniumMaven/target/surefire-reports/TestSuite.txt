@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 4, Time elapsed: 8.698 s <<< FAILURE! - in TestSuite
+com.qa.tests.LoginPageTest.loginPageTitleTest  Time elapsed: 0.011 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.qa.tests.LoginPageTest.loginPageTitleTest(LoginPageTest.java:32)
+
+com.qa.tests.LoginPageTest.tearDown  Time elapsed: 0.012 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.qa.tests.LoginPageTest.tearDown(LoginPageTest.java:50)
+

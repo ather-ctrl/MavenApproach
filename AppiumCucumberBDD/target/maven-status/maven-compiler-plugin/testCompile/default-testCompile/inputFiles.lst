@@ -1,0 +1,13 @@
+/home/mohammedathera/eclipse-workspace/AppiumCucumberBDD/src/test/java/com/qa/pages/BasePage.java
+/home/mohammedathera/eclipse-workspace/AppiumCucumberBDD/src/test/java/com/qa/stepdef/Hooks.java
+/home/mohammedathera/eclipse-workspace/AppiumCucumberBDD/src/test/java/com/qa/pages/ProductDetailsPage.java
+/home/mohammedathera/eclipse-workspace/AppiumCucumberBDD/src/test/java/com/qa/pages/LoginPage.java
+/home/mohammedathera/eclipse-workspace/AppiumCucumberBDD/src/test/java/com/qa/runners/MySamsungTestNGRunnerTest.java
+/home/mohammedathera/eclipse-workspace/AppiumCucumberBDD/src/test/java/com/qa/runners/RunnerBase.java
+/home/mohammedathera/eclipse-workspace/AppiumCucumberBDD/src/test/java/com/qa/runners/MyPixelTestNGRunnerTest.java
+/home/mohammedathera/eclipse-workspace/AppiumCucumberBDD/src/test/java/com/qa/stepdef/ProductStepDef.java
+/home/mohammedathera/eclipse-workspace/AppiumCucumberBDD/src/test/java/com/qa/pages/MenuPage.java
+/home/mohammedathera/eclipse-workspace/AppiumCucumberBDD/src/test/java/com/qa/pages/ProductsPage.java
+/home/mohammedathera/eclipse-workspace/AppiumCucumberBDD/src/test/java/com/qa/runners/MyRunnerTest.java
+/home/mohammedathera/eclipse-workspace/AppiumCucumberBDD/src/test/java/com/qa/stepdef/LoginStepDef.java
+/home/mohammedathera/eclipse-workspace/AppiumCucumberBDD/src/test/java/com/qa/pages/SettingsPage.java
